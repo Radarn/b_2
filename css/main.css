@@ -1,0 +1,106 @@
+body {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+
+
+.page-wrapper {
+	margin: 0 auto;
+}
+
+.intro {
+	text-align: center;
+
+}
+header {
+
+	height: 1000px;
+	background: url(../images/background.jpg) no-repeat center center fixed;
+	background-size: cover;
+	position: relative;
+	
+
+}
+
+header h1, header h2 {
+	font-size: 3em;
+	color: #FDE3A7;
+	position: absolute;
+
+}
+
+header h1 {
+	top: 100px;
+	left: 0;
+	width: 100%;
+}
+header h2 {
+	left: 0;
+	width: 100%;
+	top: 300px;
+}
+
+.summary {
+	font-size: 2em;
+	font-weight: bolder;
+
+}
+
+.preamble {
+	float: left;
+	width: 30%;
+	margin-left: 200px;
+}
+
+.main {
+	position: relative;
+
+}
+
+
+
+.explanation h3 {
+	text-align: center;
+}
+
+.explanation,
+.participation,
+.benefits {
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 30%;
+
+}
+
+.participation {
+	margin-left: 200px;
+}
+
+.benefits {
+	margin-right: 200px;
+}
+
+
+
+
+.requirements {
+	position: absolute;
+	width: 60%;
+	left: 200px;
+	top: 950px;
+}
+
+
+
+
+
+
+
+
+
+.supporting:after {
+	content:"";
+	display: table;
+	clear: both;
+}
