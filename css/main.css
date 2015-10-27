@@ -85,10 +85,14 @@ header h2 {
 
 
 .requirements {
-	position: absolute;
-	width: 60%;
+	display: inline-block;
 	left: 200px;
 	top: 1200px;
+	
+}
+
+.requirements h3 {
+	text-align: center;
 }
 
 .participation,
@@ -106,40 +110,49 @@ nav {
 	
 	width: 15%;
 	position: absolute;
-	bottom: 800px;
+	bottom: 1200px;
 
 }
 
-.select {
-	display: inline-block;
+.design-archives {
+	margin-bottom: 70px;
+}
 
+.select {
+	
+	position: relative;
+	bottom: 1400px;
+	margin-left: 20px;
+
+}
+
+.archives {
+	position: relative;
+	bottom: 1300px;
+	margin-left: 20px;
+}
+
+.resources {
+	position: absolute;
+	bottom: 120px;
+	left: 25px;
+	
+}
+
+.zen-resources {
+	display: inline-block;
+	position: relative;
+	left : 1040px;
+	bottom: 1670px;
+	
 }
 
 .design-archives {
 	position: relative;
 	bottom: 300px;
 }
-/*.sidebar {
-	position: relative;
-}
 
-
-.zen-resources {
-	position: absolute;
-	left: 1070px;
-	bottom: 1100px;
-	border: 2px solid black;
-}
-
-.design-archives {
-	position: absolute;
-	bottom: 1180px;
-	border: 2px solid black;
-}
-
-.select {
-	display: inline-block;
-}*/
+/* Footer */
 
 
 
