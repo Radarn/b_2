@@ -64,12 +64,15 @@ header h2 {
 
 /* Main Columns */
 .intro {
+	float: left;
 	text-align: center;
 	font-size: 1.3em;
 	border-bottom: 2px solid black;
 }
 
-
+.summary {
+	font-size: 1.5em;
+}
 
 .explanation,
 .participation,
@@ -77,16 +80,14 @@ header h2 {
 .requirements {
 	float: left;
 	width: 35%;
+	margin: 10px 10px;
 }
 
 .requirements {
 	width: 40%;
-	border: 2px solid black;
 }
 
-.benefits {
-	border: 2px solid black;
-}
+
 
 
 }
@@ -94,35 +95,37 @@ header h2 {
 	position: relative;
 }
 
+
 .zen-resources {
-	margin: 10 10 10 10;
+	margin: 10% 0;
 	padding: 10 10 10 10;
 	width: 25%;
 	position: absolute;
-	left: 75%;
+	left: 77%;
 	bottom: 0px;
-	top: 235%;
+	top: 220%;
 }
 
 .design-archives {
-	margin: 10 10 10 10;
+	margin: 10% 0;
 	padding: 10 10 10 10;
 	width: 25%;
 	position: absolute;
-	left: 75%;
+	left: 77%;
+	bottom: 0px;
+	top: 250%;
+}
+
+.design-selection {
+	margin: 10% 0;
+	padding: 10 10 10 10;
+	width: 25%;
+	position: absolute;
+	left: 77%;
 	bottom: 0px;
 	top: 270%;
 }
 
-.design-selection {
-	margin: 10 10 10 10;
-	padding: 10 10 10 10;
-	width: 25%;
-	position: absolute;
-	left: 75%;
-	bottom: 0px;
-	top: 290%;
-}
 
 
 
@@ -130,11 +133,15 @@ header h2 {
 /* Footer */
 
 footer {
+	position: relative;
 	background: url(../images/laying.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
+	border-radius: 40%;
 }
+
+
 
 .zen-validate-html,
 .zen-validate-css,
