@@ -185,11 +185,11 @@ nav {
 /* Footer */
 
 footer {
-	margin-left: 200px;
-	background: url(../images/buddha1.jpg);
+	background: url(../images/laying.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	border-radius: 40%;
+	width: 100%;
+	background-position: center center;
 }
 
 .zen-validate-html,
@@ -197,9 +197,10 @@ footer {
 .zen-license,
 .zen-accessibility,
 .zen-github {
-	margin-left: 15px;
+	margin-left: 18px;
 	margin-right: 15px;
 	font-size: 2em;
+	padding-right: 70px;
 }
 
 /* Clearfix */
