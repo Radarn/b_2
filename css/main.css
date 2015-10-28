@@ -1,7 +1,6 @@
 body {
 	font-family: "Comic Sans MS", cursive, sans-serif;
 
-
 }
 
 
@@ -21,10 +20,7 @@ a:hover {
 	color: coral;
 }
 
-.intro {
-	text-align: center;
 
-}
 
 h3 {
 	font-size: 1.5em;
@@ -67,7 +63,108 @@ header h2 {
 }
 
 /* Main Columns */
+.intro {
+	text-align: center;
+	font-size: 1.3em;
+	border-bottom: 2px solid black;
+}
 
+
+
+.explanation,
+.participation,
+.benefits,
+.requirements {
+	float: left;
+	width: 35%;
+}
+
+.requirements {
+	width: 40%;
+	border: 2px solid black;
+}
+
+.benefits {
+	border: 2px solid black;
+}
+
+
+}
+.main {
+	position: relative;
+}
+
+.zen-resources {
+	margin: 10 10 10 10;
+	padding: 10 10 10 10;
+	width: 25%;
+	position: absolute;
+	left: 75%;
+	bottom: 0px;
+	top: 235%;
+}
+
+.design-archives {
+	margin: 10 10 10 10;
+	padding: 10 10 10 10;
+	width: 25%;
+	position: absolute;
+	left: 75%;
+	bottom: 0px;
+	top: 270%;
+}
+
+.design-selection {
+	margin: 10 10 10 10;
+	padding: 10 10 10 10;
+	width: 25%;
+	position: absolute;
+	left: 75%;
+	bottom: 0px;
+	top: 290%;
+}
+
+
+
+
+/* Footer */
+
+footer {
+	background: url(../images/laying.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.zen-validate-html,
+.zen-validate-css,
+.zen-license,
+.zen-accessibility,
+.zen-github {
+	margin-left: 15px;
+	margin-right: 15px;
+	font-size: 2em;
+	
+}
+
+/* Clearfix */
+
+.supporting:after {
+	content:"";
+	display: table;
+	clear: both;
+}
+
+footer {
+	content:"";
+	display: table;
+	clear: both;
+}
+
+/* Media Queries */
+
+/* ERROR : Main Columns */
+/*
 .summary {
 	font-size: 2em;
 	font-weight: bolder;
@@ -122,10 +219,10 @@ header h2 {
 .benefits {
 	padding-left: 50px;
 }
+*/
 
-
-/* Sidebars */
-
+/*  ERROR: Sidebars */
+/*
 .sidebar {
 	position: relative;
 }
@@ -166,53 +263,20 @@ nav {
 	position: absolute;
 	bottom: 150px;
 	left: 25px;
+
 	
 }
 
 .zen-resources {
-	display: inline-block;
 	position: relative;
 	left : 1040px;
 	bottom: 1640px;
-	
 }
+
 
 .design-archives {
 	position: relative;
 	bottom: 300px;
 }
-
+*/
 /* Footer */
-
-footer {
-	background: url(../images/laying.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 100%;
-	background-position: center center;
-}
-
-.zen-validate-html,
-.zen-validate-css,
-.zen-license,
-.zen-accessibility,
-.zen-github {
-	margin-left: 18px;
-	margin-right: 15px;
-	font-size: 2em;
-	padding-right: 70px;
-}
-
-/* Clearfix */
-
-.supporting:after {
-	content:"";
-	display: table;
-	clear: both;
-}
-
-footer {
-	content:"";
-	display: table;
-	clear: both;
-}
