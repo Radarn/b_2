@@ -135,12 +135,12 @@ header h2 {
 /* Footer */
 
 footer {
-	position: relative;
 	background: url(../images/laying.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
 	border-radius: 40%;
+	margin: 0 auto;
 }
 
 
