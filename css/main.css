@@ -99,6 +99,9 @@ header h2 {
 	position: relative;
 }
 
+.main h3 {
+	text-align: center;
+}
 
 .zen-resources {
 	margin: 10% 0;
