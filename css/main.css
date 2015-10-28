@@ -7,6 +7,10 @@ body {
 .page-wrapper {
 	margin: 0 auto;
 	background: linear-gradient( 90deg, #FDE3A7, #EB9532);
+	margin-right: -62px;
+	margin-left: -10px;
+	margin-top:-10px;
+	margin-bottom: -10px;
 
 
 }
@@ -126,12 +130,7 @@ header h2 {
 	top: 270%;
 }
 
-.page-wrapper {
-	margin-right: -62px;
-	margin-left: -10px;
-	margin-top:-10px;
-	margin-bottom: -10px;
-}
+
 
 /* Footer */
 
