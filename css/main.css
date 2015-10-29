@@ -28,7 +28,7 @@ a:hover {
 
 h3 {
 	font-size: 1.7em;
-	color: #336E7B;
+	color: #2c3e50;
 	text-decoration: underline;
 }
 
@@ -101,10 +101,15 @@ header h2 {
 	position: absolute;
 	left: 75%;
 	bottom: 700px;
+	margin-left: 20px;
 
 
 }
 
+.sidebar ul{
+	list-style-type: none;
+	padding: 0;
+}
 
 
 /* Footer */
