@@ -8,8 +8,8 @@ body {
 	position: relative;
 	margin: 0 auto;
 	background: linear-gradient( 140deg, #FDE3A7, #EB9532);
-	margin-right: -10px;
-	margin-left: -10px;
+	margin-right: -8px;
+	margin-left: -8px;
 	margin-top:-10px;
 	margin-bottom: -10px;
 
@@ -69,7 +69,8 @@ header h2 {
 .intro {
 	text-align: center;
 	font-size: 1.3em;
-	border-bottom: 2px solid black;
+	border-bottom: 3px solid black;
+
 }
 
 .summary {
@@ -90,7 +91,13 @@ header h2 {
 	width: 38%;
 }
 
-
+.benefits {
+	padding-bottom: 322px;
+	background: url(../images/buddhahead.jpg) no-repeat;
+	background-size: 100%;
+	background-position: bottom;
+	border-radius: 10%;
+}
 
 .main h3 {
 	text-align: center;
@@ -100,8 +107,8 @@ header h2 {
 .sidebar {
 	position: absolute;
 	left: 75%;
-	bottom: 380px;
-	margin-left: 15px;
+	bottom: 335px;
+	margin-left: 50px;
 
 
 }
@@ -127,8 +134,22 @@ footer {
 	background-size: cover;
 	background-position: center center;
 	margin: 0 auto;
+	height: 200px;
 	width: 100%;
 	text-align: center;
+}
+
+footer a {
+	font-style: oblique;
+	color: black;
+	margin: 0;
+	background-color: #EB974E;
+
+}
+
+footer a:hover {
+	padding: 30 30;
+	color: white;
 }
 
 
@@ -138,9 +159,14 @@ footer {
 .zen-license,
 .zen-accessibility,
 .zen-github {
-	margin-left: 15px;
-	margin-right: 15px;
-	font-size: 2em;
+	position: relative;
+	margin-left: 30px;
+	margin-right: 25px;
+	font-size: 3em;
+	top: 80px;
+	border: 5px solid black;
+	border-radius: 50%;
+	padding: 10 10;
 	
 }
 
