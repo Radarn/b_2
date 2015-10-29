@@ -100,18 +100,25 @@ header h2 {
 .sidebar {
 	position: absolute;
 	left: 75%;
-	bottom: 630px;
-	margin-left: 20px;
+	bottom: 380px;
+	margin-left: 15px;
 
 
 }
 
 .sidebar ul{
-	list-style-type: none;
+	list-style-type: georgian;
 	padding: 0;
 }
 
+.sidebar li {
+	font-size: 1.5em;
+}
 
+.zen-resources,
+.design-archives {
+	margin-left: 50px;
+}
 /* Footer */
 
 footer {
@@ -119,8 +126,9 @@ footer {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
-	border-radius: 40%;
 	margin: 0 auto;
+	width: 100%;
+	text-align: center;
 }
 
 
