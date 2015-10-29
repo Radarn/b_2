@@ -121,6 +121,9 @@ header h2 {
 .sidebar li {
 	font-size: 1.5em;
 }
+.design-selection {
+	margin-right: 10px;
+}
 
 .zen-resources,
 .design-archives {
@@ -185,6 +188,8 @@ footer {
 }
 
 /* Media Queries */
+
+
 
 /* ERROR : Main Columns */
 /*
