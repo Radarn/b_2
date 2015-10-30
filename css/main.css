@@ -92,7 +92,7 @@ header h2 {
 }
 
 .benefits {
-	padding-bottom: 322px;
+	padding-bottom: 27%;
 	background: url(../images/buddhahead.jpg) no-repeat;
 	background-size: 100%;
 	background-position: bottom;
@@ -189,8 +189,37 @@ footer {
 
 /* Media Queries */
 
-@media screen and (768px) {
-	
+@media (max-width: 860px) {
+	.sidebar {
+		position: static;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.zen-validate-html,
+	.zen-validate-css,
+	.zen-license,
+	.zen-accessibility,
+	.zen-github {
+		position: static;
+		font-size: 2em;
+		display: block;
+		width: 20%;
+		margin: 0 auto;
+	}
+
+	.zen-resources,
+	.design-archives {
+		margin-left: 0px;
+	}
+
+	.explanation,
+	.participation,
+	.benefits,
+	.requirements {
+		width: 40%;
+	}
+
+
 }
 
 /* ERROR : Main Columns */
